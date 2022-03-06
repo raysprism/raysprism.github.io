@@ -274,7 +274,7 @@ $(function(){
 
     //소개 페이지에서 작업물을 클릭해서 넘어오면 모달 자동 열기
     $(document).ready(function(){
-        if(location.href.match(/(?<=\/w#).*/gm)!=undefined){
+        if(location.href.match(/(?<=\/w#).*/gm)!=undefined||location.href.match(/(?<=\/w#).*/gm)!=null){
             $('#'+location.href.match(/(?<=\/w#).*/gm)[0]+' .search_list-item_link').click();
             //IE10 이상 가능, HTML5 이상 가능(#숫자를 없애주려 했는데, 뒤로가기시 내역이 남기에 보류)
             //history.pushState(null, null, 'w');
