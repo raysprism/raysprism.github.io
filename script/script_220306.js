@@ -223,7 +223,7 @@ $(function(){
                 modal_ready = false;
                 $('.main').css({'position':'fixed','top':'-'+modal_scroll+'px','right':'0','bottom':'0','left':'0'});
                 //$('.modal_article_content').load('./'+src+'/index.html');
-                $('.modal_article_content').load(''+src+'m/index.html');
+                $('.modal_article_content').load('./w/'+src+'m/index.html');
                 $('.modal_article_blur, .modal_article').addClass('active');
                 //모달을 띄울때만 transition 길이를 늘려주기 위해 animate 이전에 클래스를 추가해준다.
                 //$('.modal_article_inner, .modal_article_bar').addClass('transition');
@@ -274,7 +274,7 @@ $(function(){
 
     //소개 페이지에서 작업물을 클릭해서 넘어오면 모달 자동 열기
     $(document).ready(function(){
-        if(location.href.match(/(?<=\/w#).*/gm)[0]!=undefined){
+        if(location.href.match(/(?<=\/w#).*/gm)!=undefined){
             $('#'+location.href.match(/(?<=\/w#).*/gm)[0]+' .search_list-item_link').click();
             //IE10 이상 가능, HTML5 이상 가능(#숫자를 없애주려 했는데, 뒤로가기시 내역이 남기에 보류)
             //history.pushState(null, null, 'w');
