@@ -224,7 +224,7 @@ $(function(){
                 modal_ready = false;
                 $('.main').css({'position':'fixed','top':'-'+modal_scroll+'px','right':'0','bottom':'0','left':'0'});
                 //$('.modal_article_content').load('./'+src+'/index.html');
-                $('.modal_article_content').load('.'+src+'m/index.html');
+                $('.modal_article_content').load(src+'m/index.html');
                 $('.modal_article_blur, .modal_article').addClass('active');
                 //모달을 띄울때만 transition 길이를 늘려주기 위해 animate 이전에 클래스를 추가해준다.
                 //$('.modal_article_inner, .modal_article_bar').addClass('transition');
