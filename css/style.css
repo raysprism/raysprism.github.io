@@ -507,9 +507,9 @@ svg { stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
 .works_main-item:nth-child(6) { transition-delay: .6s; }
 .works_main-item_inner { }
 .works_main-item_link { display: block; padding: 0 0 60px; }
-.works_main-item_head_subtitle { line-height: 1.6; font-size: 24px; word-break: keep-all; transform: translate(-60px,0); transition: transform 2s, opacity 2s; }
+.works_main-item_head_subtitle { line-height: 1.6; font-size: 24px; word-break: keep-all; transform: translate(0,60px); transition: transform 2s, opacity 2s; }
 .works_main-item_head_subtitle.anim_active { transform: translate(0,0); }
-.works_main-item_head_title { margin-top: 4px; line-height: 1.4; font-size: 36px; word-break: keep-all; transform: translate(-60px,0); transition: transform 2s, opacity 2s; }
+.works_main-item_head_title { margin-top: 4px; line-height: 1.4; font-size: 36px; word-break: keep-all; transform: translate(0,60px); transition: transform 2s, opacity 2s; }
 .works_main-item_head_title.anim_active { transform: translate(0,0); }
 .works_main-item_thumb { overflow: hidden; position: relative; transition: .5s; }
 .works_main-item_thumb_img { width: 100%; transition: .5s; }
