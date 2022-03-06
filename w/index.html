@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../script/jquery-ui-1.21.1.min.css">
+    <script src="../script/jquery-3.6.0.min.js"></script>
+    <script src="../script/jquery-ui-1.21.1.min.js"></script>
+    <script src="../script/script.js"></script>
+    <title>작품 - 김광섭 포트폴리오</title>
+</head>
+<body id="works">
+    
+    <div class="bar anim">
+        <div class="bar_works">
+            <a href="/" class="bar_works-link" title="소개 페이지로 이동">
+                <span class="bar_works-link_txt">소개</span>
+                <span class="bar_works-link_ico">
+                    <svg class="bar_works-link_svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 18 18">
+                        <path class="bar_works-link_svg_style" d="m11 3 6 6-6 6M17 9H1"/>
+                    </svg>
+                </span>
+            </a>
+        </div>
+        <div class="bar_goto bar_goto_top">
+            <button type="button" class="bar_goto-btn bar_goto-btn_top" title="맨위로">
+                <span class="blind">맨위로</span>
+                <span class="bar_goto-btn_ico">
+                    <svg class="bar_goto-btn_svg bar_goto-btn_top" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 18 18">
+                        <path class="bar_goto-btn_svg_style" d="m3 10 6-6 6 6M9 4v13M17 1H1"/>
+                    </svg>
+                </span>
+            </button>
+        </div>
+        <div class="bar_goto bar_goto_bot">
+            <button type="button" class="bar_goto-btn bar_goto-btn_bot" title="맨아래로">
+                <span class="blind">맨아래로</span>
+                <span class="bar_goto-btn_ico">
+                    <svg class="bar_goto-btn_svg bar_goto-btn_svg_bot" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 18 18">
+                        <path class="bar_goto-btn_svg_style" d="m3 10 6-6 6 6M9 4v13M17 1H1"/>
+                    </svg>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="cover">
+            <div class="cover_outer">
+                <div class="cover_inner width">
+                    <div class="cover_top">
+                        <div class="cover_logo anim">
+                            <div class="cover_logo-ico anim">
+                                <svg class="cover_logo-ico_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                                    <path class="cover_logo-ico_svg_style" d="M26.68 69.33c5.88 0 10.65-4.78 10.65-10.67V56l-2.66 2.67H10.7C4.82 58.67.05 63.45.05 69.34V72l2.66-2.67h23.97zM117.18 69.33c5.88 0 10.65-4.78 10.65-10.67V56l-2.66 2.67h-9.95c-5.88 0-10.65 4.78-10.65 10.67V72l2.66-2.67h9.95zM37.59 30.06a10.629 10.629 0 0 0-15.06 0l-1.88 1.88h3.76l6.94 6.95c4.16 4.17 10.9 4.17 15.06 0l1.88-1.88h-3.76l-6.94-6.95zM39.74 94.23c3.83-4.47 3.33-11.2-1.13-15.04l-2.02-1.74.28 3.76-7.67 8.94c-3.84 4.47-3.33 11.2 1.13 15.04l2.02 1.74-.28-3.76 7.67-8.94z"/>
+                                    <path class="cover_logo-ico_svg_style" d="M103.47 96.06 71.47 64l26.35-26.4c4.16-4.17 4.16-10.92 0-15.08l-1.88-1.89v3.77L69.27 51.12V10.67C69.27 4.78 64.5 0 58.62 0h-2.66l2.66 2.67v114.67c0 5.89 4.77 10.67 10.65 10.67h2.66l-2.66-2.67V76.88L90.3 97.94c4.16 4.17 10.9 4.17 15.06 0l1.88-1.88h-3.77z"/>
+                                </svg>
+                            </div>
+                            <div class="cover_logo-txt anim">Kim Kwang Sub</div>
+                        </div>
+                        <div class="cover_menu">
+                            <a href="/" class="cover_menu-link anim">
+                                <span class="cover_menu-link_txt">소개</span>
+                                <span class="cover_menu-link_ico">
+                                    <svg class="cover_menu-link_svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 18 18">
+                                        <path class="cover_menu-link_svg_style" d="m11 3 6 6-6 6M17 9H1"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cover_title anim">
+                        <p class="cover_title-txt">Works</p>
+                    </div>
+                    <div class="cover_desc">
+                        <p class="cover_desc-txt anim">노력과 경험이 녹아있는</p>
+                        <p class="cover_desc-txt anim">작품들을 소개합니다.</p>
+                        <!--<ul class="cover_desc-list anim">
+                            <li class="cover_desc-item">웹디자인</li>
+                            <li class="cover_desc-item">웹퍼블리싱</li>
+                            <li class="cover_desc-item">앱디자인</li>
+                            <li class="cover_desc-item">배너</li>
+                            <li class="cover_desc-item">로고</li>
+                            <li class="cover_desc-item">인쇄물</li>
+                        </ul>-->
+                    </div>
+                    <div class="cover_illust">
+                        <svg class="cover_illust-svg anim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                            <path class="cover_illust-svg_style_none fill_01 body" d="m591.62 230.67 3-4.21 5.45-2.19 4.41 1 2.2-5 3.93-11.74.62-7.05-.61-9.74-3.85-8.7-6.09-5.53-7.16-3.5-10.87-3.56-19.46-4.16-19.36-2.87-19-1.62-7.35-.48 8.8 9-13.53-2h-6.33l8 7.72-6.6-.47-11.78.2 3.96 5.03 4.38 3.2-13.17 1.3 6.74 8.51 6.08 6 10.53 7.53 8.19 3.72-.23-4.91s-.92-5.47 1.81-5.17 6.66.44 6.66.44l9.95-1.46 3.3-1.21a10.18 10.18 0 0 0 3.84-4l8.39 1.94a95.19 95.19 0 0 0 11.75 1.72l5 2s4.11 1.19 6.29 3.72l2.69 3.88 2.69 2.64 1.62 1.07s3.4 1.46 4.23 2.87l.71 5.63.29 5.31Z"/>
+                            <path class="cover_illust-svg_style_none fill_02 body" d="m395.85 254.08-4.78 27.51-1.97 26.89-.02 25.6 1.65 21.33 3.39 21.32 5.39 20.27 34.63-6.37 25-6.63 19.76-7.62-7.17 10.23-10.04 15.83-6.47 14.23-2.75 9.08-2.12 15.05.67 9.33 2.55 11.08 15.64-12.95 10.51-8.66 6.67-9.42 5.14-8.02 3.35-7.48 10.83 1.11 14.29 5.35 15.33 9.33 16.06 13.09 17.1 17.12 16.34 20.23 1.98 4.53-2.21 11.76-7.32 20.33 6.8-1.27 7.74-4.49 4.67-6.24 2.23-7.09.13-10.09-.28-22.68 2.27-35.16 3.03-22.58 2.62-14.2 1.35 24.32 1.17 21.4-.25 22.02-2.11 29.89-3.67 41.97 4.12-6.19 3.58-3 5.82-.11 7.47 6.4 7.08 9.49-.89 13.12-2.87 7.9 14.22 6.76 9.48 3.05 2.49-11.04 4.2-26.97 2.03-27.53.58-27.82-1.62-38.05-4.98-41.48-2.14-16.73-4.63-22.96-5.44-17.81-6.8-15.8-6.83-10.23-11.39-12.23-10.99-9.16-8.67-6.09-12.46-7.37-4.52 9.83-6.99 7.65-8.51 4.88-8.88 1.96-5.88-.52-2.95-2.33-1.12-4.66 2.93-15.45-13.39 4.55-13.01 5.27-18.97 8.55-17.02 8.02-23.36 11.09-27.72 13.23-4.12-8.15-4.23-20.8-3.85-14.79-4.55-14.74-2.9-8.38-3.02-6.46 1.09 12.18-.21 5.97-1.17 8.83-1.91 7.8-4.04 10.62-5.69 10.29-.42-15.86-1.11-16.72-1.18-13.69-1.79-13.57z"/>
+                            <path class="cover_illust-svg_style_none fill_01 body" d="M576.3 469.48 554 446l-6.43-5.8-23.86-6.89-19.26-3-10.95.27-7.3 1.95-3 2-3.47 5.07-4.86 4.26-29.22 24.59-16.11 16.1L410.82 506l-20.65 28.77-12.67 23-4.91 11.86-3.59 12.51-2.74 18.42-1.37 15.72-.83 45.12 1.64 44 1.91 27.28 5.95 56.69 30.53-.61L425 784.5l-2.72 51.27 25.34 5.87 20.59 3.26 26 1.45 4-.15 2.28-39.63 3.29-81.91 4-38.21 5.13-27.1 8.09-28.82L533.23 599l19-35.59 15.63-27.26 10.63-21.3 5.88-16.23 2.57-14.89Zm-107.23 89.41-8.56 22-9.29 27.11-7.91 34.33-8.1 49.26-1.12-28 .17-27.42.82-19.56 3.13-18 5.57-15.13 11.51-16.84 21.53-27Z"/>
+                            <path class="cover_illust-svg_style body" d="M522.5 206.11s-.4 32 20.46 53c12 12.09 24.73 4.17 24.73 4.17"/>
+                            <path class="cover_illust-svg_style body" d="M544.88 237.18s10.63.82 16.62-2.62M563.75 212.75l-1.96 10.83M542.59 214.68l-1.43 10.34M504.36 184c-4.87-2.21-8.31-8.31-8.31-8.31s14.91-1.3 23.39 1.6"/>
+                            <path class="cover_illust-svg_style body" d="M514.43 176s-3.18-2-8.63-8.45c0 0 15.94 1.39 28.6 4.51"/>
+                            <path class="cover_illust-svg_style body" d="M526.51 170.34a47.28 47.28 0 0 1-9-9s61.76 3 83.24 16.19 3.8 47.78 3.8 47.78M538.77 190.93s8.74 4.65 17.68 5.77"/>
+                            <path class="cover_illust-svg_style body" d="M556.53 190a42.34 42.34 0 0 0 16.66 10.38M575.55 195.15s3.69 12.58 10.93 16.56M590.24 212a74.76 74.76 0 0 1 1.38 18.63 28.69 28.69 0 0 1-1.61 7M510.25 197s18.26 8.58 34 1.7"/>
+                            <path class="cover_illust-svg_style body" d="M522.73 211c-19.49-6.73-31.54-25.72-31.54-25.72a82.75 82.75 0 0 1 21.19-1.15M548.42 280.84s-16.11 4.73-39.75 15.74c-27.21 12.68-73.72 35-73.72 35M411.49 254.77s22.77 54.12 21.38 100.54"/>
+                            <path class="cover_illust-svg_style body" d="M430.83 323.4s9.11 16.05 12.9 32.86M606.49 393.73S596.17 440 599 490.86c1.43 25.95-21.16 26.72-21.16 26.72M451.78 842.64c-6 23.79-14.79 47.3-21.58 70.47-8.16 27.85 12.27 27.8 22.6 16.56 14.39-15.65 15.9-36.62 21.17-47.5 6.78-14 1.74-21.4 3.11-36.37M478.84 441.29c3.68-7.71 11.06-13 16-26.61M404.1 788.72c9.34 23.55-4.84 44.34-11.4 72.76-5.71 24.74 11.48 18.57 18.14 12.95 10.28-8.69 17.64-22.6 21.47-35.86M477.87 538.32c-28.62 35.7-40.92 47-43.21 83.53-1.11 17.55.48 51-.65 79"/>
+                            <path class="cover_illust-svg_style body" d="M604.59 357.84s2.8 54 4.12 75c2.1 33.35-4.59 75.76-5.75 103.57"/>
+                            <path class="cover_illust-svg_style body" d="M602.32 561a113.16 113.16 0 0 1 8.33-21.28c-2.43 4.81-10.26 16.95-13.1 13.24-2-2.58 3.18-9.75 7.62-22 2.09-5.77 8.32-15.49 24.3 6.08 5 6.81 11.44 13.63 18.38 26"/>
+                            <path class="cover_illust-svg_style body" d="M603 536.38c-5-1.44-11.25 3-9.91 14.56s1.39 19.89 20 20.45c18.78.56 18-31.47 18-31.47M519.93 314.52s-1.44 17.72-24.8 43.79c-22.58 25.19-54.56 61.63-41.66 103"/>
+                            <path class="cover_illust-svg_style body" d="M470.22 425s31.34-43.91 108.16 46.94c11.07 13.09 14.18 23.4 14.18 23.4"/>
+                            <path class="cover_illust-svg_style body" d="M508.44 445.88s-17.92 22.44-17.84 44.53M506.25 460.66a69.88 69.88 0 0 0-12 42.78M527.18 446.52s-13.36 16.7-21.74 33.66M399.23 396.89c-21.23-69.36-3.38-142.81-3.38-142.81M480 375.77s-20.88 12.31-80.49 21.23M483.19 434.53s9.95-12.9 64.37 5.63"/>
+                            <path class="cover_illust-svg_style body" d="M425 784.5c-18.7 6.84-51.39 4.83-51.39 4.83-10.43-80.11-13.75-177.49-2.82-214 12-40 55.89-95.49 104.11-131.43 9.4-7 18.86-7.81 41.74-4.25a159.66 159.66 0 0 1 28.16 7.59"/>
+                            <path class="cover_illust-svg_style body" d="M502.88 486.47S464.3 559 450.11 613.64C440.67 650 427.78 722 422.24 835.77c-.65-.28 42.05 12.3 75.88 10.43 3.73-48.93 2.51-75.86 5.57-121.54 2.76-41.25 9.08-77.72 27.36-120.74 17.62-41.44 54.05-85.13 55.88-120.19M411.49 254.77s10.23 33.83-17 67.23M551.49 264.86s-4.23 22-5.52 28.63c-.55 2.85-2.46 9.25 7.07 10.1 11.3 1 27-7.35 31.36-24.81 1.43-5.67 5.36-26.85 5.36-26.85 10.33-3.34 17.83-10.05 18.53-18 .45-5.16-.73-7.89-5.55-9.23-7.84-2.2-11.12 6-11.12 6"/>
+                            <path class="cover_illust-svg_style body" d="M539.2 290.33s-3.92 15.21 6.71 19.61c8.91 3.69 30.47 2.27 42.78-19.85"/>
+                            <path class="cover_illust-svg_style body" d="M627.3 560.94s11.7 6.88 23.7 9.81c11.3-44.33 10.94-109.29 6.13-146.07-4.17-31.87-5.71-62.74-19.94-95.1-13.33-30.31-52.84-50.1-52.84-50.1M382.22 217.71c.2-8-1-36.53-6.53-39.21-2.68-1.31-4.27.38-3.55 6.87 1.35 12.07 1.92 39.06 7.7 48.82 4.27 7.19 11.34 11.15 14.58 15.25s5.59 50.1 5.59 50.1c.61 11 .34 14.38.34 14.38"/>
+                            <path class="cover_illust-svg_style body" d="M378.71 231.91c-4.2-4.6-6.65-13-14.27-20.6-7.44-7.39-.82-8.69 3-6.48s7 4.26 7.12 7.51M382.22 216.09s2.65-14.42 2.08-22c-.91-12-.89-17 2.69-16.55s7.49 21.84 3.42 39.41"/>
+                            <path class="cover_illust-svg_style body" d="M390.67 215.79s3.77-12.18 4.87-20.4c1-7.56.71-14.59 3.4-14.26 4.38.56 4.67 14.87.75 34.82-1.07 5.45-1.19 7.74 2.11 11 3 2.94 6.56 4.62 8.61 9.31 3 6.77-.65 12.36 1.32 19.52M553.29 456.62s-23.62 36.71-2.18 51.59M488.55 443.14s-31.19 29.63-40.27 28.46"/>
+                            <g class="cover_illust-svg_group">
+                                <path class="cover_illust-svg_style fill_03 shape_02" d="m313.78 503.01-39.66 18.49 3.81-43.6 35.85 25.11z"/>
+                                <circle class="cover_illust-svg_style fill_04 shape_01" cx="367.41" cy="448.3" r="5.42"/>
+                                <path class="cover_illust-svg_style fill_05 shape_03" d="M286.74 112.2h60.44v22.61h-60.44z"/>
+                                <path class="cover_illust-svg_style fill_06 shape_05" d="M324.13 52.03h30.31v30.31h-30.31z"/>
+                                <circle class="cover_illust-svg_style fill_07 shape_01" cx="411.02" cy="25.5" r="5.42"/>
+                                <path class="cover_illust-svg_style fill_08 shape_02" d="M397.63 78.91h120.89v45.22H397.63z"/>
+                                <circle class="cover_illust-svg_style fill_09 shape_01" cx="699.9" cy="216.18" r="21.69"/>
+                                <circle class="cover_illust-svg_style fill_10 shape_01" cx="753.12" cy="307.49" r="5.42"/>
+                                <path class="cover_illust-svg_style fill_11 shape_04" d="M583.44 664.62h57.79v6.62h-57.79z"/>
+                                <circle class="cover_illust-svg_style fill_12 shape_01" cx="724.31" cy="620.47" r="10.84"/>
+                                <path class="cover_illust-svg_style fill_13 shape_01" d="m694.73 729.29-19.69-5.27 14.4-14.42 5.29 19.69z"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search" data-type="전체">
+            <div class="search_option">
+                <div class="search_option_inner width">
+                    <div class="search_option_title anim">
+                        <span class="search_option_title-txt">전체</span>
+                    </div>
+                    <ul class="search_option-list">
+                        <li class="search_option-item anim">
+                            <button type="button" class="search_option-btn active">전체</button>
+                        </li>
+                        <li class="search_option-item anim">
+                            <button type="button" class="search_option-btn">웹디자인</button>
+                        </li>
+                        <li class="search_option-item anim">
+                            <button type="button" class="search_option-btn">웹퍼블리싱</button>
+                        </li>
+                        <li class="search_option-item anim">
+                            <button type="button" class="search_option-btn">앱디자인</button>
+                        </li>
+                        <li class="search_option-item anim">
+                            <button type="button" class="search_option-btn">배너</button>
+                        </li>
+                        <li class="search_option-item anim">
+                            <button type="button" class="search_option-btn">로고</button>
+                        </li>
+                        <li class="search_option-item anim">
+                            <button type="button" class="search_option-btn">인쇄물</button>
+                        </li>
+                        <li class="search_option-item anim">
+                            <button type="button" class="search_option-btn">기타</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search_list">
+                <div class="search_list_inner width">
+                    <ul class="search_list-list">
+                        <li id="i32" class="search_list-item anim show" data-type="웹디자인,웹퍼블리싱">
+                            <a href="" class="search_list-item_link" data-src="32">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work32.jpg" alt="라라힐 리디자인&퍼블리싱" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">라라힐 리디자인&퍼블리싱</div>
+                                    <div class="search_list-item_desc">통일되지 않은 많은 시각적 요소들을 리디자인하고 퍼블리싱하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">웹디자인</span>
+                                        <span class="search_list-item_tag">웹퍼블리싱</span>
+                                        <span class="search_list-item_tag">웹표준</span>
+                                        <span class="search_list-item_tag">웹접근성</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i33" class="search_list-item anim show" data-type="웹디자인,웹퍼블리싱">
+                            <a href="" class="search_list-item_link" data-src="33">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work33.jpg" alt="후성 리디자인&퍼블리싱" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">후성 리디자인&퍼블리싱</div>
+                                    <div class="search_list-item_desc">동적으로 홈페이지의 구조를 리디자인하고 퍼블리싱하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">웹디자인</span>
+                                        <span class="search_list-item_tag">웹퍼블리싱</span>
+                                        <span class="search_list-item_tag">반응형웹</span>
+                                        <span class="search_list-item_tag">웹표준</span>
+                                        <span class="search_list-item_tag">웹접근성</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i34" class="search_list-item anim show" data-type="웹디자인,웹퍼블리싱">
+                            <a href="" class="search_list-item_link" data-src="34">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work34.jpg" alt="블로그 스킨 디자인&퍼블리싱" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">블로그 스킨 디자인&퍼블리싱</div>
+                                    <div class="search_list-item_desc">3단형 티스토리 스킨 디자인하고 퍼블리싱하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">웹디자인</span>
+                                        <span class="search_list-item_tag">웹퍼블리싱</span>
+                                        <span class="search_list-item_tag">반응형웹</span>
+                                        <span class="search_list-item_tag">웹표준</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i30" class="search_list-item anim show" data-type="웹디자인">
+                            <a href="" class="search_list-item_link" data-src="30">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work30.jpg" alt="REBEN 웹디자인" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">REBEN 웹디자인</div>
+                                    <div class="search_list-item_desc">모던 인테리어를 주로하는 디자인하는 기업의 홈페이지를 디자인하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">웹디자인</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i31" class="search_list-item anim show" data-type="웹디자인">
+                            <a href="" class="search_list-item_link" data-src="31">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work31.jpg" alt="HOMELANE 웹디자인" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">HOMELANE 웹디자인</div>
+                                    <div class="search_list-item_desc">모듈 방식을 중시하는 인테리어 기업의 작업처럼 그리드에 맞춰 디자인하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">웹디자인</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i29" class="search_list-item anim show" data-type="웹디자인,앱디자인">
+                            <a href="" class="search_list-item_link" data-src="29">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work29.jpg" alt="아리아 퍼니처 모바일 디자인" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">아리아 퍼니처 모바일 디자인</div>
+                                    <div class="search_list-item_desc">아리아 퍼니처의 모바일 페이지를 리디자인하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">웹디자인</span>
+                                        <span class="search_list-item_tag">앱디자인</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i9" class="search_list-item anim show" data-type="앱디자인">
+                            <a href="" class="search_list-item_link" data-src="9">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work09.jpg" alt="온건강 앱디자인" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">온건강 앱디자인</div>
+                                    <div class="search_list-item_desc">여러 건강 데이터를 기록하여 원격으로 전문가에게 진단을 받는 앱입니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업(졸업작품)</span>
+                                        <span class="search_list-item_tag">앱디자인</span>
+                                        <span class="search_list-item_tag">배너</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i28" class="search_list-item anim show" data-type="웹퍼블리싱">
+                            <a href="" class="search_list-item_link" data-src="28">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work28.jpg" alt="네이버 카피 퍼블리싱" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">네이버 카피 퍼블리싱</div>
+                                    <div class="search_list-item_desc">HTML, CSS, JS, JQUERY로 네이버와 각 기능을 똑같이 구현하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">웹카피</span>
+                                        <span class="search_list-item_tag">웹퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li id="i35" class="search_list-item anim show" data-type="배너">
+                            <a href="" class="search_list-item_link" data-src="35">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work35.jpg" alt="센티드 바디로션 배너" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">센티드 바디로션 배너</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">배너</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i8" class="search_list-item anim show" data-type="배너,인쇄물">
+                            <a href="" class="search_list-item_link" data-src="8">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work08.jpg" alt="바이비전 배너" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">바이비전 배너</div>
+                                    <div class="search_list-item_desc">시각장애인이 장애물을 진동으로 인지하도록 도와주는 제품에 대한 배너입니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업(졸업작품)</span>
+                                        <span class="search_list-item_tag">배너</span>
+                                        <span class="search_list-item_tag">인쇄물</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i25" class="search_list-item anim show" data-type="배너,인쇄물">
+                            <a href="" class="search_list-item_link" data-src="25">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work25.jpg" alt="초연결 일러스트" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">초연결 일러스트</div>
+                                    <div class="search_list-item_desc">인터넷으로 세계가 하나로 연결되었음을 표현하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">배너</span>
+                                        <span class="search_list-item_tag">인쇄물</span>
+                                        <span class="search_list-item_tag">일러스트</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i26" class="search_list-item anim show" data-type="배너,인쇄물">
+                            <a href="" class="search_list-item_link" data-src="26">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work26.jpg" alt="창작 타이포그래" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">창작 타이포그래픽</div>
+                                    <div class="search_list-item_desc">'미래를 예견하는 가장 좋은 방법은 창작이다'라는 문구를 표현하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">타이포그래픽</span>
+                                        <span class="search_list-item_tag">배너</span>
+                                        <span class="search_list-item_tag">인쇄물</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i7" class="search_list-item anim show" data-type="인쇄물">
+                            <a href="" class="search_list-item_link" data-src="7">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work07.jpg" alt="산업용 멀티콘센트 브로슈어" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">산업용 멀티콘센트 브로슈어</div>
+                                    <div class="search_list-item_desc">산업용 멀티콘센트에 대한 브로슈어 디자인입니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">인쇄물</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i10" class="search_list-item anim show" data-type="배너,인쇄물">
+                            <a href="" class="search_list-item_link" data-src="10">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work10.jpg" alt="비만예방 공익 포스터" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">비만예방 공익 포스터</div>
+                                    <div class="search_list-item_desc">서로 대비되는 계단과 에스컬레이터를 찍어 만든 비만예방 공익 포스터입니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">배너</span>
+                                        <span class="search_list-item_tag">인쇄물</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li id="i27" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="27">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work27.jpg" alt="퍼스날 로고 디자인" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">퍼스날 로고 디자인</div>
+                                    <div class="search_list-item_desc">영문 이니셜과 이름의 뜻에 담긴 한자를 로고로 형상화하였습니다.</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i11" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="11">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work11.jpg" alt="광교스카이치과 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">광교스카이치과 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i12" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="12">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work12.jpg" alt="다인치과 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">다인치과 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i13" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="13">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work13.jpg" alt="더하루치과 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">더하루치과 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i14" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="14">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work14.jpg" alt="미소플러스치과 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">미소플러스치과 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i15" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="15">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work15.jpg" alt="더비전치과 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">더비전치과 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i16" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="16">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work16.jpg" alt="서울호치과 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">서울호치과 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i17" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="17">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work17.jpg" alt="미추산부인과 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">미추산부인과 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i18" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="18">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work18.jpg" alt="사랑내과의원 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">사랑내과의원 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i19" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="19">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work19.jpg" alt="바른검진 네트워크 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">바른검진 네트워크 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i20" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="20">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work20.jpg" alt="백세건강 네트워크 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">백세건강 네트워크 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i21" class="search_list-item anim show" data-type="로고">
+                            <a href="" class="search_list-item_link" data-src="21">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work21.jpg" alt="허그제주 로고" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">허그제주 로고</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">로고</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li id="i22" class="search_list-item anim show" data-type="기타">
+                            <div class="search_list-item_beforeafter">                            
+                                <div class="search_list-item_btn">
+                                    <span class="search_list-item_btn_inner">
+                                        <button type="button" class="search_list-item_btn_elem search_list-item_btn_before">이전</button><!--
+                                        --><button type="button" class="search_list-item_btn_elem search_list-item_btn_both">전후</button><!--
+                                        --><button type="button" class="search_list-item_btn_elem search_list-item_btn_after">이후</button>
+                                    </span>
+                                </div>
+                                <div class="search_list-item_bar">
+                                    <div class="search_list-item_bar_inner"></div>
+                                </div>
+                                <div class="search_list-item_before">
+                                    <img src="../images/work22-1.jpg" alt="피부보정 보정전" class="search_list-item_before_img">
+                                </div>
+                                <div class="search_list-item_after">
+                                    <img src="../images/work22-2.jpg" alt="피부보정 보정후" class="search_list-item_after_img">
+                                </div>
+                            </div>
+                            <div class="search_list-item_info">
+                                <div class="search_list-item_title">피부보정</div>
+                                <div class="search_list-item_tags">
+                                    <span class="search_list-item_tag bold">개인작업</span>
+                                    <span class="search_list-item_tag">사진보정</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="i23" class="search_list-item anim show" data-type="기타">
+                            <div class="search_list-item_beforeafter">                            
+                                <div class="search_list-item_btn">
+                                    <span class="search_list-item_btn_inner">
+                                        <button type="button" class="search_list-item_btn_elem search_list-item_btn_before">이전</button><!--
+                                        --><button type="button" class="search_list-item_btn_elem search_list-item_btn_both">전후</button><!--
+                                        --><button type="button" class="search_list-item_btn_elem search_list-item_btn_after">이후</button>
+                                    </span>
+                                </div>
+                                <div class="search_list-item_bar">
+                                    <div class="search_list-item_bar_inner"></div>
+                                </div>
+                                <div class="search_list-item_before">
+                                    <img src="../images/work23-1.jpg" alt="피부보정 보정전" class="search_list-item_before_img">
+                                </div>
+                                <div class="search_list-item_after">
+                                    <img src="../images/work23-2.jpg" alt="피부보정 보정후" class="search_list-item_after_img">
+                                </div>
+                            </div>
+                            <div class="search_list-item_info">
+                                <div class="search_list-item_title">피부보정</div>
+                                <div class="search_list-item_tags">
+                                    <span class="search_list-item_tag bold">개인작업</span>
+                                    <span class="search_list-item_tag">사진보정</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="i24" class="search_list-item anim show" data-type="기타">
+                            <div class="search_list-item_beforeafter">                            
+                                <div class="search_list-item_btn">
+                                    <span class="search_list-item_btn_inner">
+                                        <button type="button" class="search_list-item_btn_elem search_list-item_btn_before">이전</button><!--
+                                        --><button type="button" class="search_list-item_btn_elem search_list-item_btn_both">전후</button><!--
+                                        --><button type="button" class="search_list-item_btn_elem search_list-item_btn_after">이후</button>
+                                    </span>
+                                </div>
+                                <div class="search_list-item_bar">
+                                    <div class="search_list-item_bar_inner"></div>
+                                </div>
+                                <div class="search_list-item_before">
+                                    <img src="../images/work24-1.jpg" alt="비율보정 보정전" class="search_list-item_before_img">
+                                </div>
+                                <div class="search_list-item_after">
+                                    <img src="../images/work24-2.jpg" alt="비율보정 보정후" class="search_list-item_after_img">
+                                </div>
+                            </div>
+                            <div class="search_list-item_info">
+                                <div class="search_list-item_title">비율보정</div>
+                                <div class="search_list-item_tags">
+                                    <span class="search_list-item_tag bold">개인작업</span>
+                                    <span class="search_list-item_tag">사진보정</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li id="i1" class="search_list-item anim show" data-type="기타">
+                            <a href="/w/1/" class="search_list-item_link" data-src="1">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work01.jpg" alt="스피커 렌더링" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">스피커 렌더링</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">그래픽</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i2" class="search_list-item anim show" data-type="기타">
+                            <a href="" class="search_list-item_link" data-src="2">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work02.jpg" alt="지문인식 도어락 렌더링" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">지문인식 도어락 렌더링</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">그래픽</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i3" class="search_list-item anim show" data-type="기타">
+                            <a href="" class="search_list-item_link" data-src="3">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work03.jpg" alt="전기레인지 렌더링" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">전기레인지 렌더링</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">그래픽</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i4" class="search_list-item anim show" data-type="기타">
+                            <a href="" class="search_list-item_link" data-src="4">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work04.jpg" alt="리모콘 렌더링" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">리모콘 렌더링</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">그래픽</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i5" class="search_list-item anim show" data-type="기타">
+                            <a href="" class="search_list-item_link" data-src="5">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work05.jpg" alt="계기판 렌더링" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">계기판 렌더링</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">그래픽</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="i6" class="search_list-item anim show" data-type="기타">
+                            <a href="" class="search_list-item_link" data-src="6">
+                                <div class="search_list-item_thumb">
+                                    <img src="../images/work06.jpg" alt="센터펜시아 렌더링" class="search_list-item_thumb_img">
+                                    <div class="search_list-item_thumb_cover"></div>
+                                    <div class="search_list-item_thumb_cover"></div>
+                                </div>
+                                <div class="search_list-item_info">
+                                    <div class="search_list-item_title">센터펜시아 렌더링</div>
+                                    <div class="search_list-item_tags">
+                                        <span class="search_list-item_tag bold">개인작업</span>
+                                        <span class="search_list-item_tag">그래픽</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="intro anim">
+            <div class="intro_inner width">
+                <a href="/" class="intro-link">
+                    <div class="intro-link_subtitle anim">소개로</div>
+                    <div class="intro-link_title anim">돌아가기</div>
+                    <div class="intro-icon">
+                        <svg class="intro-svg" viewBox="0 0 150 34">
+                            <path class="intro-svg_style" d="M1 33h148L117 1"/>
+                        </svg>
+                    </div>
+                    <div class="intro-effect">
+                        <svg class="intro-effect_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+                            <path class="intro-effect_svg_style" d="M0 100.14h192"/>
+                            <path class="intro-effect_svg_style" d="m106 14.14 86 86-86 86"/>
+                        </svg>
+                        <svg class="intro-effect_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+                            <path class="intro-effect_svg_style" d="M0 100.14h192"/>
+                            <path class="intro-effect_svg_style" d="m106 14.14 86 86-86 86"/>
+                        </svg>
+                        <svg class="intro-effect_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+                            <path class="intro-effect_svg_style" d="M0 100.14h192"/>
+                            <path class="intro-effect_svg_style" d="m106 14.14 86 86-86 86"/>
+                        </svg>
+                        <svg class="intro-effect_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+                            <path class="intro-effect_svg_style" d="M0 100.14h192"/>
+                            <path class="intro-effect_svg_style" d="m106 14.14 86 86-86 86"/>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="contact anim">
+            <div class="contact_inner width">
+                <div class="contact_profile">
+                    <div class="contact_profile_title">
+                        <p class="contact_profile_title-txt anim">웹디자이너로써</p>
+                        <p class="contact_profile_title-txt contact_profile_title-txt_main anim">모두가 만족할 수 있는 좋은 디자인 만들겠습니다.</p>
+                    </div>
+                    <div class="contact_profile_subtitle anim">
+                        좋은 디자인은 보기 좋으면서 '명확히 전달'이 되어 '공감'할 수 있어야 한다고 생각합니다. 사람마다 좋은 디자인의 조건은 모두 다르겠지만, 항상 사용자와 브랜드의 관점에서 좋은 디자인을 만들고자 끊임없이 고민하고 연구하겠습니다. 새로움을 찾아 적극적으로 도전하고, 유연하게 변화를 수용하며, 안주하지 않고 꾸준한 자기 계발을 통해 좋은 디자인을 보여드리겠습니다.
+                    </div>
+                    <div class="contact_profile_desc">
+                        <div class="contact_profile_desc-item anim">
+                            <span class="contact_profile_desc-item_title name"><strong>김광섭(29)</strong></span>
+                        </div>
+                        <div class="contact_profile_desc-item anim">
+                            <span class="contact_profile_desc-item_title">블로그</span><a href="https://fulldive.tistory.com/" target="_blank" class="contact_profile_desc-item_link">바로가기</a>
+                        </div>
+                        <div class="contact_profile_desc-item anim">
+                            <span class="contact_profile_desc-item_title">이메일</span><span class="contact_profile_desc-item_link">ynavytyia@naver.com</span>
+                        </div>
+                        <div class="contact_profile_desc-item anim">
+                            <span class="contact_profile_desc-item_title">연락처</span><span class="contact_profile_desc-item_link">010-0000-0000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_map anim">
+                    <div class="contact_map_inner">
+                        <iframe class="contact_map-frame" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d50652.95284206604!2d126.78200547070313!3d37.488820339830845!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b6294ae6593b9%3A0x5a6eee8a65cbe470!2z6rK96riw64-EIOu2gOyynOyLnCDsm5Drr7jqtawg7Jet6rOh64-Z!5e0!3m2!1sko!2skr!4v1645610500692!5m2!1sko!2skr" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_inner width">
+                <div class="footer_logo anim">
+                    <div class="footer_logo-ico">
+                        <svg class="footer_logo-ico_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                            <path class="footer_logo-ico_svg_style" d="M26.68 69.33c5.88 0 10.65-4.78 10.65-10.67V56l-2.66 2.67H10.7C4.82 58.67.05 63.45.05 69.34V72l2.66-2.67h23.97zM117.18 69.33c5.88 0 10.65-4.78 10.65-10.67V56l-2.66 2.67h-9.95c-5.88 0-10.65 4.78-10.65 10.67V72l2.66-2.67h9.95zM37.59 30.06a10.629 10.629 0 0 0-15.06 0l-1.88 1.88h3.76l6.94 6.95c4.16 4.17 10.9 4.17 15.06 0l1.88-1.88h-3.76l-6.94-6.95zM39.74 94.23c3.83-4.47 3.33-11.2-1.13-15.04l-2.02-1.74.28 3.76-7.67 8.94c-3.84 4.47-3.33 11.2 1.13 15.04l2.02 1.74-.28-3.76 7.67-8.94z"/>
+                            <path class="footer_logo-ico_svg_style" d="M103.47 96.06 71.47 64l26.35-26.4c4.16-4.17 4.16-10.92 0-15.08l-1.88-1.89v3.77L69.27 51.12V10.67C69.27 4.78 64.5 0 58.62 0h-2.66l2.66 2.67v114.67c0 5.89 4.77 10.67 10.65 10.67h2.66l-2.66-2.67V76.88L90.3 97.94c4.16 4.17 10.9 4.17 15.06 0l1.88-1.88h-3.77z"/>
+                        </svg>
+                    </div>
+                    <div class="footer_logo-txt">Kim Kwang Sub</div>
+                </div>
+                <div class="footer_update anim">2022-03-06 ✔</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal_article_blur"></div>
+    <div class="modal_article">
+        <div class="modal_article_overlay"></div>
+        <div class="modal_article_outer">
+            <div class="modal_article_inner">
+                <div class="modal_article_content"></div>
+                <div class="modal_article_bot">
+                    <button type="button" class="modal_article-btn modal_article_bot-btn modal_article-btn_gototop">
+                        <span class="modal_article-btn_txt">맨위로</span>
+                        <span class="modal_article-btn_icon">
+                            <svg class="modal_article-btn_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                <path class="modal_article-btn_svg_style" d="m3 10 6-6 6 6M9 4v13M17 1H1"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <button type="button" class="modal_article-btn modal_article_bot-btn modal_article-btn_close">
+                        <span class="modal_article-btn_txt">닫기</span>
+                        <span class="modal_article-btn_icon">
+                            <svg class="modal_article-btn_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                <path class="modal_article-btn_svg_style" d="M16 2 2 16M2 2l14 14"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="modal_article_bar">
+            <div class="modal_article_bar_close">
+                <button type="button" class="modal_article_bar_close-btn" title="닫기">
+                    <span class="modal_article_bar_close-btn_txt">닫기</span>
+                    <span class="modal_article_bar_close-btn_ico">
+                        <svg class="modal_article_bar_close-btn_svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 18 18">
+                            <path class="modal_article_bar_close-btn_svg_style" d="M16 2 2 16M2 2l14 14"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="modal_article_bar_goto modal_article_bar_goto_top">
+                <button type="button" class="modal_article_bar_goto-btn modal_article_bar_goto-btn_top" title="맨위로">
+                    <span class="blind">맨위로</span>
+                    <span class="modal_article_bar_goto-btn_ico">
+                        <svg class="modal_article_bar_goto-btn_svg modal_article_bar_goto-btn_top" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 18 18">
+                            <path class="modal_article_bar_goto-btn_svg_style" d="m3 10 6-6 6 6M9 4v13M17 1H1"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="modal_article_bar_goto modal_article_bar_goto_bot">
+                <button type="button" class="modal_article_bar_goto-btn modal_article_bar_goto-btn_bot" title="맨아래로">
+                    <span class="blind">맨아래로</span>
+                    <span class="modal_article_bar_goto-btn_ico">
+                        <svg class="modal_article_bar_goto-btn_svg modal_article_bar_goto-btn_svg_bot" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 18 18">
+                            <path class="modal_article_bar_goto-btn_svg_style" d="m3 10 6-6 6 6M9 4v13M17 1H1"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

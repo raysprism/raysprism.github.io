@@ -1,0 +1,1766 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+    <title>라라힐</title>
+</head>
+<body>
+    <div class="header width clearfix">
+        <div class="header_left">
+            <a href="#" class="header_logo">
+                <img src="images/logo.png" alt="라라힐" class="logo-img">
+            </a>
+            <a href="#" class="header_left-link actived">판매샵</a><!--
+            --><a href="#" class="header_left-link header_left-slash"></a><!--
+            --><a href="#" class="header_left-link">대여몰</a>
+        </div>
+        <div class="header_right">
+            <a href="#" class="header_right-link">회원가입<span class="header_right-link_pop">+3000P</span></a><!--
+            --><a href="#" class="header_right-link">로그인</a><!--
+            --><a href="#" class="header_right-link">고객센터</a><!--
+            --><a href="#" class="header_right-link"><span class="header_right-img header_right-img_mypage"></span><span class="blind">마이페이지</span></a><!--
+            --><a href="#" class="header_right-link"><span class="header_right-img header_right-img_cart"></span><span class="blind">장바구니</span></a><!--
+            --><a href="#" class="header_right-link"><span class="header_right-img header_right-img_search"></span><span class="blind">검색</span></a>
+        </div>
+    </div>
+    <div class="search">
+        <div class="search_inner width">
+            <form class="search_form">
+                <div class="search_util clearfix">
+                    <div class="search_util_left">검색</div>
+                    <button type="button" class="search-btn_close"><span class="blind">닫기</span><span class="search-btn_close_img"></span></button>
+                </div>
+                <div class="search_box">
+                    <input type="text" class="search-input">
+                    <button class="search-submit"><span class="blind">검색</span><span class="search-submit_img"></span></button>
+                </div>
+                <div class="search_popular">
+                    <ul class="search_popular-list clearfix">
+                        <li class="search_popular-item"><button type="button" class="search_popular-item_btn">무대</button></li>
+                        <li class="search_popular-item"><button type="button" class="search_popular-item_btn">모던</button></li>
+                        <li class="search_popular-item"><button type="button" class="search_popular-item_btn">연주회</button></li>
+                        <li class="search_popular-item"><button type="button" class="search_popular-item_btn">시상식</button></li>
+                        <li class="search_popular-item"><button type="button" class="search_popular-item_btn">파티</button></li>
+                        <li class="search_popular-item"><button type="button" class="search_popular-item_btn">졸업</button></li>
+                        <li class="search_popular-item"><button type="button" class="search_popular-item_btn">웨딩</button></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="nav width">
+        <button type="button" class="nav-btn">
+            <span class="nav-btn_tbar"></span>
+            <span class="nav-btn_mbar"></span>
+            <span class="nav-btn_bbar"></span>
+        </button><!--
+        --><a href="#" class="nav-link"><span class="nav-img nav-img_new"></span><span class="blind">NEW</span></a><!--
+        --><a href="#" class="nav-link"><span class="nav-img nav-img_best"></span><span class="blind">BEST</span></a><!--
+        --><a href="#" class="nav-link"><span class="nav-img nav-img_timesale"></span><span class="blind">TIMESALE</span></a><!--
+        --><a href="#" class="nav-link"><span class="nav-img nav-img_event"></span><span class="blind">EVENT</span></a><!--
+        --><a href="#" class="nav-link nav-slash"></a><!--
+        --><a href="#" class="nav-link">웨딩드레스</a><!--
+        --><a href="#" class="nav-link">롱드레스</a><!--
+        --><a href="#" class="nav-link">미니드레스</a><!--
+        --><a href="#" class="nav-link">모던드레스</a><!--
+        --><a href="#" class="nav-link">아웃웨어</a><!--
+        --><a href="#" class="nav-link">언더웨어</a><!--
+        --><a href="#" class="nav-link">슈즈</a><!--
+        --><a href="#" class="nav-link">가방</a><!--
+        --><a href="#" class="nav-link">악세서리</a><!--
+        --><a href="#" class="nav-link">쥬얼리</a>
+        <span class="nav_right">
+            <ul class="nav_right-list">
+                <li class="nav_right-item">
+                    <a href="#" class="nav_right-link">커뮤니티</a><span class="nav-img nav-img_arrow"></span>
+                    <ul class="nav_right-sub_list">
+                        <li class="nav_right-sub_item">
+                            <a href="#" class="nav_right-sub_link">공지사항</a>
+                        </li>
+                        <li class="nav_right-sub_item">
+                            <a href="#" class="nav_right-sub_link">상품문의</a>
+                        </li>
+                        <li class="nav_right-sub_item">
+                            <a href="#" class="nav_right-sub_link">상품후기</a>
+                        </li>
+                        <li class="nav_right-sub_item">
+                            <a href="#" class="nav_right-sub_link">Q&A</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </span>
+        <div class="nav_all">
+            <div class="nav_all_inner width clearfix">
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">공지사항</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">커뮤니티</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">상품문의</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">상품후기</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">자주묻는질문</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">고객센터</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">신상</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">베스트</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">타임세일</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">이벤트</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">셀프웨딩드레스</a>
+                        </li>
+                    </ul>
+                    <ul class="nav_all-list nav_all-sub_list">
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">머메이드드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">A라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">H라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">언밸런스드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">화이트드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">유색드레스</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">웨딩드레스</a>
+                        </li>
+                    </ul>
+                    <ul class="nav_all-list nav_all-sub_list">
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">벨라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">머메이드드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">A라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">H라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">엠파이어라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">레플리카드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">화이트드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">유색드레스</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">롱드레스</a>
+                        </li>
+                    </ul>
+                    <ul class="nav_all-list nav_all-sub_list">
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">벨라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">머메이드드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">A라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">H라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">엠파이어라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">섹시라인드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">화이트드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">유색드레스</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">미니드레스</a>
+                        </li>
+                    </ul>
+                    <ul class="nav_all-list nav_all-sub_list">
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">화이트드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">블랙드레스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">유색드레스</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">모던드레스</a>
+                        </li>
+                    </ul>
+                    <ul class="nav_all-list nav_all-sub_list">
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">원피스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">투피스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">쓰리피스</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">화이트</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">블랙</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">유색</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">아웃웨어</a>
+                        </li>
+                    </ul>
+                    <ul class="nav_all-list nav_all-sub_list">
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">트위드</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">트렌치코트</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">자켓</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">코트</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">가죽</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">패딩</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">볼레로</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">휴양지/허니문</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">쥬니어</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">데일리룩</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">언더웨어</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">슈즈</a>
+                        </li>
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">가방</a>
+                        </li>
+                    </ul>
+                    <ul class="nav_all-list nav_all-sub_list">
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">백</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">클러치</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">악세사리</a>
+                        </li>
+                    </ul>
+                    <ul class="nav_all-list nav_all-sub_list">
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">헤어밴드</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">헤어장식/핀</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">베일</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">화관/팔찌</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">부케</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">모자/웨딩모자</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">장갑/웨딩장갑</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">벨트/비즈벨트</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">속치마/패티코트</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">패션악세사리</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_all-group">
+                    <ul class="nav_all-list nav_all-main_list">
+                        <li class="nav_all-item nav_all-main_item">
+                            <a href="#" class="nav_all-link nav_all-main_link">쥬얼리</a>
+                        </li>
+                    </ul>
+                    <ul class="nav_all-list nav_all-sub_list">
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">귀걸이</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">목걸이</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">팔찌</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">브로치</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">티아라</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">세트상품</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">쥬얼리시계</a>
+                        </li>
+                        <li class="nav_all-item nav_all-sub_item">
+                            <a href="#" class="nav_all-link nav_all-sub_link">기타</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <ul class="slider-list">
+            <li class="slider-item actived" data-bgcolor="#e6e2e3">
+                <a href="#" class="slider-link width">
+                    <img src="images/slider01.jpg" alt="핸드메이드 드레스 기획전 21.09.01~21.09.30" class="slider-img">
+                </a>
+            </li>
+            <li class="slider-item" data-bgcolor="#eed5d9">
+                <a href="#" class="slider-link width">
+                    <img src="images/slider02.jpg" alt="슬라이드2" class="slider-img">
+                </a>
+            </li>
+            <li class="slider-item" data-bgcolor="#e4e4e4">
+                <a href="#" class="slider-link width">
+                    <img src="images/slider03.jpg" alt="슬라이드3" class="slider-img">
+                </a>
+            </li>
+        </ul>
+        <div class="slider_nav">
+            <div class="slider_nav_inner width">
+                <ul class="slider_nav-list clearfix"></ul>
+            </div>
+        </div>
+        <button type="button" class="slider_nav-btn_side slider_nav-btn_left"><span class="slider_nav-btn_img slider_nav-btn_left_img"></span><span class="blind">이전 슬라이드</span></button>
+        <button type="button" class="slider_nav-btn_side slider_nav-btn_right"><span class="slider_nav-btn_img slider_nav-btn_right_img"></span><span class="blind">다음 슬라이드</span></button>
+    </div>
+    <div class="banner width clearfix">
+        <div class="banner_col banner_l">
+            <a href="#" class="banner_l-link banner-link">
+                <img src="images/banner01.jpg" alt="신규회원 혜택 가입만 하면 3,000 포인트와 10% 할인 쿠폰 증정" class="banner-img">
+            </a>
+            <a href="#" class="banner_l-link banner-link">
+                <img src="images/banner02.jpg" alt="포토리뷰 혜택 고급 핸드메이드 악세사리 랜덤박스 증정" class="banner-img">
+            </a>
+            <a href="#" class="banner_l-link banner-link">
+                <img src="images/banner03.jpg" alt="10만원 이상 구매 혜택 럭셔리 핸드메이드 쥬얼리 무료 증정 (선착순 100명)" class="banner-img">
+            </a>
+        </div>
+        <div class="banner_col banner_c">
+            <a href="#" class="banner-link">
+                <img src="images/banner04.jpg" alt="SELF REFORM DRESS 나만의 드레스를 리폼 및 제작해보세요 9월 중 OPEN 50% OFF" class="banner-img">
+            </a>
+        </div>
+        <div class="banner_col banner_r">
+            <ul class="banner_slider-list">
+                <li class="banner_slider-item actived">
+                    <a href="#" class="banner_slider-link">
+                        <img src="images/banner05-1.jpg" alt="합창복 연주복 들러리 의상 최대 200만원 할인" class="banner_slider-img">
+                    </a>
+                </li>
+                <li class="banner_slider-item">
+                    <a href="#" class="banner_slider-link">
+                        <img src="images/banner05-2.jpg" alt="배너6" class="banner_slider-img">
+                    </a>
+                </li>
+            </ul>
+            <ul class="banner_slider_nav-list clearfix"></ul>
+        </div>
+    </div>
+    <div class="product width">
+        <div class="product_head clearfix">
+            <div class="product_info">
+                <span class="product_head-title">NEW ARRIVALS</span><span class="product_head-desc">라라벨의 신상품</span>
+            </div>
+            <div class="product_nav">
+                <ul class="product_nav-list clearfix">
+                    <li class="product_nav-item">
+                        <button type="button" class="product_nav-btn actived" data-order="1">드레스</button>
+                    </li>
+                    <li class="product_nav-item">
+                        <button type="button" class="product_nav-btn" data-order="2">아웃웨어</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="product_right">
+                <button type="button" class="product_nav-btn">전체보기<span class="product_nav-btn_img_arrow"></span></button>
+            </div>
+        </div>
+        <div class="product_body">
+            <ul class="product-list actived clearfix" data-order="1">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_new01.jpg" alt="화이트 이브닝 드레스(TL263-1)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">화이트 이브닝 드레스(TL263-1)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">116,480원</span>
+                                <span class="product-info_before">145,600원</span>
+                                <span class="product-info_rate">20%</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_new02.jpg" alt="베이지 모던드레스(CLC27)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">베이지 모던드레스(CLC27)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">113,800원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_new03.jpg" alt="화이트 웨딩드레스(WED91)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">화이트 웨딩드레스(WED91)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">198,000원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_new04.jpg" alt="베이지 웨딩드레스(CLC26)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">베이지 웨딩드레스(CLC26)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">105,000원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="product-list clearfix" data-order="2">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_new_out01.jpg" alt="베이지 트렌치코트(OT55)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">베이지 트렌치코트(OT55)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">316,400원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_new_out02.jpg" alt="블랙 레더 프렌치코트(OT17)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">블랙 레더 프렌치코트(OT17)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">425,200원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_new_out03.jpg" alt="블랙 유광 레더 트렌치코트(OT34)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">블랙 유광 레더 트렌치코트(OT34)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">498,600원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_new_out04.jpg" alt="블랙 웨스트 민스터(OT35)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">블랙 웨스트 민스터(OT35)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">359,200원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="product width">
+        <div class="product_head clearfix">
+            <div class="product_info">
+                <span class="product_head-title">WEEKLY BEST</span><span class="product_head-desc">금주 인기 상품</span>
+            </div>
+            <div class="product_nav">
+                <ul class="product_nav-list clearfix">
+                    <li class="product_nav-item">
+                        <button type="button" class="product_nav-btn actived" data-order="1">드레스</button>
+                    </li>
+                    <li class="product_nav-item">
+                        <button type="button" class="product_nav-btn" data-order="2">아웃웨어</button>
+                    </li>
+                    <li class="product_nav-item">
+                        <button type="button" class="product_nav-btn" data-order="3">악세서리</button>
+                    </li>
+                    <li class="product_nav-item">
+                        <button type="button" class="product_nav-btn" data-order="4">쥬얼리</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="product_right">
+                <button type="button" class="product_nav-btn">전체보기<span class="product_nav-btn_img_arrow"></span></button>
+            </div>
+        </div>
+        <div class="product_body">
+            <ul class="product-list actived clearfix" data-order="1">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_dre01.jpg" alt="아이보리 이브닝 2부 드레스(PTL365)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">아이보리 이브닝 2부 드레스(PTL365)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">139,800원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_dre02.jpg" alt="로즈 시스루 드레스(PTL377)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">로즈 시스루 드레스(PTL377)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">199,600원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_dre03.jpg" alt="로즈 이브닝 드레스(PTL312)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">로즈 이브닝 드레스(PTL312)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">199,600원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_dre04.jpg" alt="블랙 모던 파티 드레스(3347)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">블랙 모던 파티 드레스(3347)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">127,600원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="product-list clearfix" data-order="2">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best02.jpg" alt="화이트 양모 코트(JGA90)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">화이트 양모 코트(JGA90)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">215,200원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best03.jpg" alt="유광 가죽 트렌치코트(FOU63)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">유광 가죽 트렌치코트(FOU63)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">181,200원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best01.jpg" alt="네이비 트렌치코트(OUT60)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">네이비 트렌치코트(OUT60)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">288,400원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best04.jpg" alt="망또 트렌치코(PVG6)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">망또 트렌치코트(PVG6)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">223,600원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="product-list clearfix" data-order="3">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_acc01.jpg" alt="비즈 화관(BH92)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">비즈 화관(BH92)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">39,800원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_acc02.jpg" alt="웨딩 베일(WV83)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">웨딩 베일(WV83)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">37,800원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_acc03.jpg" alt="티아라 헤어밴드(TH53)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">티아라 헤어밴드(TH53)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">59,800원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_acc04.jpg" alt="티아라 헤어핀(THP77)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">티아라 헤어핀(THP77)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">22,000원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="product-list clearfix" data-order="4">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_jew01.jpg" alt="크리스탈 쥬얼리 세트(JES26)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">크리스탈 쥬얼리 세트(JES26)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">27,800원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_jew02.jpg" alt="크리스탈 티아라(JET77)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">크리스탈 티아라(JET77)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">145,600원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_jew03.jpg" alt="퍼플 이어링(JES11)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">퍼플 이어링(JES11)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">18,500원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_best_jew04.jpg" alt="쥬얼리 목걸이 귀걸이 세트(JES25)" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                            <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-info_title">쥬얼리 목걸이 귀걸이 세트(JES25)</div>
+                            <div class="product-info_desc">
+                                <span class="product-info_after">27,800원</span>
+                                <span class="product-info_before"></span>
+                                <span class="product-info_rate"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="product product_sale">
+        <div class="product_inner width">
+            <div class="product_head clearfix">
+                <div class="product_info">
+                    <span class="product_head-title">NOW ON SALE</span><span class="product_head-desc">지금 할인중인 상품</span>
+                </div>
+                <div class="product_nav">
+                    <ul class="product_nav-list clearfix">
+                        <li class="product_nav-item">
+                            <button type="button" class="product_nav-btn actived" data-order="1">전체</button>
+                        </li>
+                        <li class="product_nav-item">
+                            <button type="button" class="product_nav-btn" data-order="2">10%</button>
+                        </li>
+                        <li class="product_nav-item">
+                            <button type="button" class="product_nav-btn" data-order="3">25%</button>
+                        </li>
+                        <li class="product_nav-item">
+                            <button type="button" class="product_nav-btn" data-order="4">50%</button>
+                        </li>
+                        <li class="product_nav-item">
+                            <button type="button" class="product_nav-btn" data-order="5">75%</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product_right">
+                    <button type="button" class="product_nav-btn">전체보기<span class="product_nav-btn_img_arrow"></span></button>
+                </div>
+            </div>
+            <div class="product_body">
+                <ul class="product-list actived clearfix" data-order="1">
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_c01.jpg" alt="클래식 드레스(RDJ401)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">클래식 드레스(RDJ401)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">103,740원</span>
+                                    <span class="product-info_before">159,600원</span>
+                                    <span class="product-info_rate">35%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_c02.jpg" alt="모던 드레스(MD89)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">모던 드레스(MD89)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">113,330원</span>
+                                    <span class="product-info_before">161,900원</span>
+                                    <span class="product-info_rate">35%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_b01.jpg" alt="프럼 파리 드레스(PTL413)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">프럼 파리 드레스(PTL413)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">182,700원</span>
+                                    <span class="product-info_before">243,600원</span>
+                                    <span class="product-info_rate">25%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_a01.jpg" alt="블랙 시스루 모던드레스(LIL242-1)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">블랙 시스루 모던드레스(LIL242-1)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">115,740원</span>
+                                    <span class="product-info_before">128,600원</span>
+                                    <span class="product-info_rate">10%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="product-list clearfix" data-order="2">
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_a01.jpg" alt="블랙 시스루 모던드레스(LIL242-1)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">블랙 시스루 모던드레스(LIL242-1)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">115,740원</span>
+                                    <span class="product-info_before">128,600원</span>
+                                    <span class="product-info_rate">10%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_a02.jpg" alt="A라인 플레어 긴팔 블랙 드레스(PTL452)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">A라인 플레어 긴팔 블랙 드레스(PTL452)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">111,150원</span>
+                                    <span class="product-info_before">123,500원</span>
+                                    <span class="product-info_rate">10%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_a03.jpg" alt="민트 주니어 드레스(PTL-J5)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">민트 주니어 드레스(PTL-J5)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">135,500원</span>
+                                    <span class="product-info_before">150,000원</span>
+                                    <span class="product-info_rate">10%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_a04.jpg" alt="A라인 화이트 2부 드레스(MOD150)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">A라인 화이트 2부 드레스(MOD150)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">131,040원</span>
+                                    <span class="product-info_before">145,600원</span>
+                                    <span class="product-info_rate">10%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="product-list clearfix" data-order="3">
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_b01.jpg" alt="프럼 파리 드레스(PTL413)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">프럼 파리 드레스(PTL413)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">182,700원</span>
+                                    <span class="product-info_before">243,600원</span>
+                                    <span class="product-info_rate">25%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_b02.jpg" alt="블랙 파티 트임 드레스(PTJ55)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">블랙 파티 트임 드레스(PTJ55)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">112,000원</span>
+                                    <span class="product-info_before">140,000원</span>
+                                    <span class="product-info_rate">20%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_b03.jpg" alt="투톤 이브 2부 드레스(PTJ14)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">투톤 이브 2부 드레스(PTJ14)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">91,040원</span>
+                                    <span class="product-info_before">113,800원</span>
+                                    <span class="product-info_rate">35%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_b04.jpg" alt="남자 주니어 턱시도(MJ20)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">남자 주니어 턱시도(MJ20)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">114,880원</span>
+                                    <span class="product-info_before">143,600원</span>
+                                    <span class="product-info_rate">20%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="product-list clearfix" data-order="4">
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_c01.jpg" alt="클래식 드레스(RDJ401)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">클래식 드레스(RDJ401)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">103,740원</span>
+                                    <span class="product-info_before">159,600원</span>
+                                    <span class="product-info_rate">35%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_c02.jpg" alt="모던 드레스(MD89)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">모던 드레스(MD89)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">113,330원</span>
+                                    <span class="product-info_before">161,900원</span>
+                                    <span class="product-info_rate">35%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_c03.jpg" alt="레드 패턴 클래식 드레스(PTL521)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">레드 패턴 클래식 드레스(PTL521)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">80,340원</span>
+                                    <span class="product-info_before">123,600원</span>
+                                    <span class="product-info_rate">35%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_c04.jpg" alt="모던 로즈 프릴 점프슈트(LIL12)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">모던 로즈 프릴 점프슈트(LIL12)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">99,840원</span>
+                                    <span class="product-info_before">153,600원</span>
+                                    <span class="product-info_rate">35%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="product-list clearfix" data-order="5">
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_d01.jpg" alt="블랙 고딕 드레스(PT1068)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">블랙 고딕 드레스(PT1068)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">55,200원</span>
+                                    <span class="product-info_before">138,000원</span>
+                                    <span class="product-info_rate">60%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-thumb">
+                                <img src="images/product_sale_d02.jpg" alt="클래식 머메이드 드레스(LIL124-1)" class="product-thumb_img">
+                                <div class="product-thumb_cover"></div>
+                                <button type="button" class="product-btn_favorite"><span class="product-btn_img_favorite"></span></button>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info_title">클래식 머메이드 드레스(LIL124-1)</div>
+                                <div class="product-info_desc">
+                                    <span class="product-info_after">27,250원</span>
+                                    <span class="product-info_before">109,000원</span>
+                                    <span class="product-info_rate">75%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="product product_review width">
+        <div class="product_head clearfix">
+            <div class="product_info">
+                <span class="product_head-title">PHOTO REVIEW</span><span class="product_head-desc">라라벨 고객님들의 사용후기</span>
+            </div>
+            <div class="product_right">
+                <button type="button" class="product_nav-btn">전체보기<span class="product_nav-btn_img_arrow"></span></button>
+            </div>
+        </div>
+        <div class="product_body">
+            <ul class="product-list actived clearfix" data-order="1">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review01.jpg" alt="kimmu*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kimmu*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review02.jpg" alt="songk*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">songk*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review03.jpg" alt="kfc94*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kfc94*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review04.jpg" alt="leehe*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">leehe*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review05.jpg" alt="marth9*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">marth9*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="product-list clearfix">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review02.jpg" alt="songk*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">songk*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review01.jpg" alt="kimmu*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kimmu*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review03.jpg" alt="kfc94*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kfc94*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review04.jpg" alt="leehe*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">leehe*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review05.jpg" alt="marth9*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">marth9*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="product-list clearfix">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review02.jpg" alt="songk*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">songk*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review01.jpg" alt="kimmu*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kimmu*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review03.jpg" alt="kfc94*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kfc94*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review05.jpg" alt="marth9*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">marth9*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review04.jpg" alt="leehe*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">leehe*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="product-list clearfix">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review03.jpg" alt="kfc94*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kfc94*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review02.jpg" alt="songk*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">songk*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review01.jpg" alt="kimmu*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kimmu*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review05.jpg" alt="marth9*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">marth9*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review04.jpg" alt="leehe*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">leehe*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="product-list clearfix">
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review03.jpg" alt="kfc94*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kfc94*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review02.jpg" alt="songk*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">songk*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review05.jpg" alt="marth9*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">marth9*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★★</span><span class="product-info_star_empty"></span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review01.jpg" alt="kimmu*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">kimmu*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#" class="product-link">
+                        <div class="product-thumb">
+                            <img src="images/product_review04.jpg" alt="leehe*" class="product-thumb_img">
+                            <div class="product-thumb_cover"></div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-info_name">leehe*</span>
+                            <span class="product-info_star">
+                                <span class="product-info_star_fill">★★★★</span><span class="product-info_star_empty">★</span>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="fbanner">
+        <div class="fbanner_inner width clearfix">
+            <div class="fbanner_left">드레스 선 공정 작업은 모두 수작업 입니다.</div>
+            <div class="fbanner_right">라라힐 드레스 제품은 1차로 레이스와 비즈 등을 한땀 한땀 수작업으로 고정 후, 봉재 작업이 이루어지는 선공정을 진행하는 공장 제품만을 판매를 하고 있으며, 선공정이 없이 바로 봉재 작업하는 제품과는 다릅니다.</div>
+        </div>
+    </div>
+    <div class="fgnb">
+        <div class="fgnb_inner width clearfix">
+            <div class="fgnb_left">
+                <ul class="fgnb-list clearfix">
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">회사소개</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">이용약관</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link fgnb-link_point">개인정보처리방침</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">이용안내</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">제휴문의</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fgnb_right">
+                <ul class="fgnb-list clearfix">
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">회원가입</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">로그인</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">관심상품</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">장바구니</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">주문조회</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">마이페이지</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">공지사항</a>
+                    </li>
+                    <li class="fgnb-item">
+                        <a href="#" class="fgnb-link">고객센터</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="service">
+        <div class="service_inner width clearfix">
+            <div class="service-tel">02-1688-9788</div>
+            <div class="service_left">
+                <div class="service-line clearfix">
+                    <div class="service-line_left">전화상담</div>
+                    <div class="service-line_right">평일 오전 11:00 ~ 오후 5:00 / 토요일 오전 11:00 ~ 오후 1:00</div>
+                </div>
+                <div class="service-line clearfix">
+                    <div class="service-line_left">점심시간</div>
+                    <div class="service-line_right">오후 1:00 ~ 오후 2:00 / 일.공휴일 휴무</div>
+                </div>
+                <div class="service-line clearfix">
+                    <div class="service-line_left">카카오톡상담</div>
+                    <div class="service-line_right">평일 오전 11:00 ~ 오후 8:00 / 토요일 오전 11:00 ~ 오후 5:00</div>
+                </div>
+                <div class="service-line_low clearfix">상담 가능 시간 외에는 게시판으로 문의 부탁드립니다</div>
+            </div>
+            <div class="service_right">
+                <div class="service-line">483020 경기도 동두천시 지행동 729-4번지 제이앤제이빌딩 3층 (301/302/303호)</div>
+                <div class="service-line service-line_low">자세한 교환/반품/환불 절차 안내는 문의란 및 공지사항을 참고바랍니다</div>
+                <div class="service-line">&nbsp;</div>
+                <div class="service-line">농협 301-0067-1281-91</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_inner width clearfix">
+            <div class="footer_left">
+                JANE & JANE<span class="footer-slash">|</span>대표: 유성훈<span class="footer-slash">|</span>사업자등록번호: 237-23-01143<span class="footer-slash">|</span>통신판매업신고번호: 제2021-3920097-30-2-00244<br>
+주소: 483020 경기도 동두천시 지행동 729-4번지 J&J 빌딩 301/302/303호<span class="footer-slash">|</span>대표번호: 02-1688-9788<span class="footer-slash">|</span>팩스: 0504-207-2556<br>
+개인정보관리책임자: 유지훈 (lalahill@naver.com)<span class="footer-slash">|</span>이메일: lalahill@naver.com<br>
+                <span class="copyright">COPYRIGHT © LALAHILL. ALL RIGHTS RESERVED.</span>
+            </div>
+            <div class="footer_right">
+                <a href="#" class="social-link social-link_facebook"><span class="blind">페이스북</span></a><!--
+                --><a href="#" class="social-link social-link_twitter"><span class="blind">트위터</span></a><!--
+                --><a href="#" class="social-link social-link_instagram"><span class="blind">인스타그램</span></a><!--
+                --><a href="#" class="social-link social-link_linkdin"><span class="blind">링크드인</span></a><!--
+                --><a href="#" class="social-link social-link_youtube"><span class="blind">유튜브</span></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
