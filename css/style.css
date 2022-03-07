@@ -434,6 +434,10 @@ svg { stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
 .skill_main-item:last-child { margin-right: 0; }
 .skill_main-item_info { position: relative; margin-top: 30px; padding: 0 30px; line-height: 1.6; }
 .skill_main-item_title { display: inline-block; position: absolute; top: -48px; left: 30px; padding: 0 16px 0 16px; border-radius: 9999px; line-height: 32px; background: #27234b; font-size: 16px; white-space: nowrap; color: #f5f3ff; }
+.skill_main-item_title_txt {}
+.skill_main-item_title_ico { display: inline-block; width: 16px; margin-left: -4px; margin-right: -2px; }
+.skill_main-item_title_svg { display: inline-block; vertical-align: -2px; }
+.skill_main-item_title_svg_style { fill: #d2ffd8; stroke: #d2ffd8; stroke-width: 1.5; }
 .skill_main-item_subtitle { font-size: 14px; font-weight: bold; letter-spacing: -1px; }
 .skill_main-item_desc { margin-top: 8px; line-height: 1.6; font-size: 14px; word-break: keep-all; }
 
